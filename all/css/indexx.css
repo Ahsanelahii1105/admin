@@ -163,7 +163,7 @@
 
 .grd
 {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: grid;
     grid-template-columns: 289px 1fr 289px;
 }
@@ -185,11 +185,13 @@
 
 .lady
 {
+    background-color:  #f8f8f8 !important;
     border: none !important;
-    height: 70vh;
+    height: 80vh;
     background-image: url("img/lady.png");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 88% 101%;
+    background-position: 50px 0px;
 }
 
 #box3
@@ -202,11 +204,13 @@
 
 .man
 {
+    background-color:  #f8f8f8 !important;
     border: none !important;
     background-image: url("img/man.png");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    height: 70vh;
+    background-size: 88% 101%;
+    background-position: 38px 0px;
+    height: 80vh;
 }
 
 #box2
@@ -218,14 +222,20 @@
 
 .bag
 {
+    background-image: url("img/bag.png");
+    background-size:  64% 76%;
+    background-repeat: no-repeat;
+    background-position: 104px 61px;   
+    background-color:  #f8f8f8 !important;
     border: none !important;
-    height: 35vh;
+    height: 41vh;
 }
 
 .bag_speaker
 {
     /* height: 67vh; */
-    margin-left: 20px;
+    margin: 7px 111px;
+    border-radius: 20px;
 }
 
 #box4
@@ -237,6 +247,10 @@
 
 .speaker
 {
+    background-image: url("img/speaker.png");
+    background-repeat: no-repeat;
+    background-size: 76% 63%;
+    background-position: 79px 79px;
     background-color:  #f8f8f8 !important;
     border: none !important;
     height: 35vh;
